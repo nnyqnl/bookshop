@@ -1,0 +1,15 @@
+<view class='title-detail'>
+{{book.name}}
+</view>
+<view class='content-datail-box'>
+  <view scroll-y='true' scroll-x='false' class='content-detail'>
+    {{book.content}}
+  </view>
+  
+</view>
+
+<view class='add_btn'>
+    <button class='btn' bindtap="addMy">
+        加入书架
+    </button>
+</view>

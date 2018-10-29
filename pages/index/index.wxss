@@ -1,0 +1,54 @@
+.out{
+  background-color: "yellow"
+}
+.input-search-out{
+  margin-top: 20px;
+  margin-left: 30px;
+  border-bottom-color: blue; 
+}
+.input-search{
+  /* margin-top: 10px;
+  margin-left: 20px;
+  border-bottom-color: blue; */
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  
+}
+.input-search-icon{
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.input-search-box{
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.title1{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.item-list0{
+  /* background-color: #FFFFF0; */
+  padding-top: 1px;
+}
+.item-list1{
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.author-name{
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 40px;
+}
+.item-list2{
+  margin-top: 10px;
+}
+
+

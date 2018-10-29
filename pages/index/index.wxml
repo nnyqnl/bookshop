@@ -1,0 +1,22 @@
+<view class='out'>
+   <view class='input-search-out'> 
+    <view class='input-search-box'>
+      <icon class="input-search-icon" type="search" size="14"></icon>
+      <input class='input-search' placeholder='请输入您要查询的书名'></input>
+    </view>
+   </view> 
+  <view class='title1'>
+
+    热门图书
+  </view>
+  <view class='item-list0'>
+    <view class='item-list1' wx:for="{{bookList}}">
+      <view class='item-list2' bindtap="detail" id="{{item.id}}">
+        <test>{{item.bookName}}</test>
+        <test class='author-name'>{{item.author}}</test>
+      </view>
+      
+      
+    </view>
+  </view>
+</view>
